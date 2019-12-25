@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="barista's logo.png" />
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+
+	<title>Barista's House</title>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<!-- Header -->
+	<div class="header-main-div">
+		<h1 class="top">Barista's House</h1>
+		<div class="navigation">
+			<nav>
+				<p>My perfect morning is spent drinking coffee, eating porridge and reading the paper at a local cafe.</p>
+			</nav>
+		</div>
+	</div>
+
+	<!-- Content -->
+	<div class="content">
+		<div class="slider">
+			<div id="img">
+				<img src="a.jpg">
+			</div>
+					<script>
+						var images = ['b.jpg', 'c.jpg', 'd.jpg'];
+						var x = 0;
+						var imgs = document.getElementById('img');
+
+						setInterval(slider, 3000);
+
+						function slider() {
+							if(x < images.length) {
+								x = x + 1; 
+							}else{
+								x = 1 ;
+							}
+							imgs.innerHTML = "<img src=" + images[x - 1] +">"
+						}
+					</script>	
+		</div>
+
+	<!-- card -->
+	<div class="menu">
+		<a href="https://www.browncoffee.com.kh/page/Menu/420160070859702031/720160230845902518" target="_blank" style="text-decoration: none;"><h1>Menu</h1></a>
+		<div class="div-card">
+			<div style="margin: auto;">
+	      <div style="margin: auto;">
+	        <div col-lg-4 style="display: inline-block; margin-top: 20px; margin-left: 20px;"> 
+	            <div class="card">
+	              	<img class="card-img-top" src="f.jpg" alt="Card image cap">
+		              <div class="card-body" style="font-size: 15px;">
+		                <h5 class="card-title">Hot Chocolate</h5>
+		                <span class="card-text" >Size</span>
+		                <span class="card-text" style=" float: right;">Price</span>
+		                <hr>
+		                <span class="card-text" >R</span>
+		                <span class="card-text" style=" float: right;">2.50 USD</span>
+		                <hr>
+		                <span class="card-text" >L</span>
+		                <span class="card-text" style=" float: right;">3.35 USD</span>
+		                <hr>
+		                <span class="card-text" >G</span>
+		                <span class="card-text" style=" float: right;">3.95 USD</span>
+		                <hr>
+		              </div>
+	            </div>
+	        </div>
+	        <div col-lg-4 style="display: inline-block; margin-top: 20px; margin-left: 20px;"> 
+	            <div class="card">
+	                <img class="card-img-top" src="g.jpg" alt="Card image cap">
+	                <div class="card-body" style="font-size: 15px;">
+	                  <h5 class="card-title">Caramel Latte</h5>
+	                  <span class="card-text" >Size</span>
+	                  <span class="card-text" style=" float: right;">Price</span>
+	                  <hr>
+	                  <span class="card-text" >R</span>
+	                  <span class="card-text" style=" float: right;">2.50 USD</span>
+	                  <hr>
+	                  <span class="card-text" >L</span>
+	                  <span class="card-text" style=" float: right;">3.35 USD</span>
+	                  <hr>
+	                  <span class="card-text" >G</span>
+	                  <span class="card-text" style=" float: right;">3.95 USD</span>
+	                  <hr>
+	                </div>
+	            </div>
+	        </div>
+	        <div col-lg-4 style="display: inline-block; margin-top: 20px; margin-left: 20px;"> 
+	            <div class="card">
+	                <img class="card-img-top" src="e.jpg" alt="Card image cap">
+	                <div class="card-body" style="font-size: 15px;">
+	                  <h5 class="card-title">Vanilla Latte</h5>
+	                  <span class="card-text" >Size</span>
+	                  <span class="card-text" style=" float: right;">Price</span>
+	                  <hr>
+	                  <span class="card-text" >R</span>
+	                  <span class="card-text" style=" float: right;">2.50 USD</span>
+	                  <hr>
+	                  <span class="card-text" >L</span>
+	                  <span class="card-text" style=" float: right;">3.35 USD</span>
+	                  <hr>
+	                  <span class="card-text" >G</span>
+	                  <span class="card-text" style=" float: right;">3.95 USD</span>
+	                  <hr>
+	                </div>
+	            </div>
+	        </div>
+	        <div col-lg-4 style="display: inline-block; margin-top: 20px; margin-left: 20px;"> 
+	            <div class="card">
+	                <img class="card-img-top" src="h.jpg" alt="Card image cap">
+	                <div class="card-body" style="font-size: 15px;">
+	                  <h5 class="card-title">Flat White</h5>
+	                  <span class="card-text" >Size</span>
+	                  <span class="card-text" style=" float: right;">Price</span>
+	                  <hr>
+	                  <span class="card-text" >R</span>
+	                  <span class="card-text" style=" float: right;">2.50 USD</span>
+	                  <hr>
+	                  <span class="card-text" >L</span>
+	                  <span class="card-text" style=" float: right;">3.35 USD</span>
+	                  <hr>
+	                  <span class="card-text" >G</span>
+	                  <span class="card-text" style=" float: right;">3.95 USD</span>
+	                  <hr>
+	                </div>
+	            </div>
+	        </div>
+	        <div col-lg-4 style="display: inline-block; margin-top: 20px; margin-left: 20px;"> 
+	            <div class="card">
+	                <img class="card-img-top" src="i.jpg" alt="Card image cap">
+	                <div class="card-body" style="font-size: 15px;">
+	                  <h5 class="card-title">PALM CAPPUCCINO</h5>
+	                  <span class="card-text" >Size</span>
+	                  <span class="card-text" style=" float: right;">Price</span>
+	                  <hr>
+	                  <span class="card-text" >R</span>
+	                  <span class="card-text" style=" float: right;">2.50 USD</span>
+	                  <hr>
+	                  <span class="card-text" >L</span>
+	                  <span class="card-text" style=" float: right;">3.35 USD</span>
+	                  <hr>
+	                  <span class="card-text" >G</span>
+	                  <span class="card-text" style=" float: right;">3.95 USD</span>
+	                  <hr>
+	                </div>
+	            </div>
+	        </div>
+	        <div col-lg-4 style="display: inline-block; margin-top: 20px; margin-left: 20px;"> 
+	            <div class="card">
+	                <img class="card-img-top" src="j.jpg" alt="Card image cap">
+	                <div class="card-body" style="font-size: 15px;">
+	                  <h5 class="card-title">CAPPUCCINO</h5>
+	                  <span class="card-text" >Size</span>
+	                  <span class="card-text" style=" float: right;">Price</span>
+	                  <hr>
+	                  <span class="card-text" >R</span>
+	                  <span class="card-text" style=" float: right;">2.50 USD</span>
+	                  <hr>
+	                  <span class="card-text" >L</span>
+	                  <span class="card-text" style=" float: right;">3.35 USD</span>
+	                  <hr>
+	                  <span class="card-text" >G</span>
+	                  <span class="card-text" style=" float: right;">3.95 USD</span>
+	                  <hr>
+	                </div>
+	            </div>
+	        </div>
+	      </div>
+	    </div>
+		</div>
+		<br>
+	<!-- About Us -->
+		<a href="https://www.browncoffee.com.kh/page/Our_Story" target="_blank" style="text-decoration: none;"><h1>About Us</h1></a>
+		<div class="wrapper">
+		  <div class="card-collection">
+			    <div class="about-card">
+			      <h3 style="font-size: 40px;">Our Service</h3>
+			      <p class="role" style="font-size: 15px;">Barista's House</p>
+			      <p> Since 2009, Barista has brought coffee culture to Cambodia. Through the best coffee that we roast in house, 14 (and counting!) iconic spaces designed with a modern Khmer spirit, a lively environment, and friendly customer service. Taste the good life.Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+			    </div>
+
+			    <div class="about-card">
+			      <h3  style="font-size: 40px;">Our People</h3>
+			      <p class="role" style="font-size: 15px;">Barista's House</p>
+			      <p>From humble beginnings grow great things. What started off as a staff of less than 10 has grown to a staff of hundreds in just 6 years. We believe in treating our staff like family. Because when people love what they do, they do good work. The Barista's House is committed to excellence and to providing friendly and welcoming service. From our Baristas to our Chefs to our Head of Human Resources, we embrace an environment of teamwork and personal growth.</p>
+			    </div>
+
+		     	<div class="about-card">
+			      <h3  style="font-size: 40px;">Our Story</h3>
+			      <p class="role" style="font-size: 15px;">Barista's House</p>
+			      <p>Barista's House was founded by a group of young Cambodian entrepreneurs, inspired by the great, big world and really good coffee. A new coffee culture has taken over the great cities of the world: Rome, London, Seattle, Melbourne, Singapore. Premium ingredients and unique tastes that celebrate tradition and culture. Coffee culture brings people together and creates spaces to relax, to work, to connect with friends, to hang out over good food and drink. Coffee culture can elevate a city.</p>
+			    </div>
+		  </div>
+		</div>	
+	<!-- Contact Us -->
+		<a href="https://www.browncoffee.com.kh/page/Location" target="_blank" style="text-decoration: none;"><h1>Contact Us</h1></a>
+		<br>
+		<div class="card-collection">
+	    <div class="about-card">
+	      <h2 style="font-size: 40px;">Contact</h2>
+	      <p class="role" style="font-size: 15px;">Barista's House</p>
+	      <ul>
+	         <li><a>Phone:    098578818/09688545</a></li>
+	         <li><a>Email:    barista@gmail.com</a></li>
+	         <li><a>Facebook: barista's House</a></li>
+	         <li><a>Line:     Barista_Cambodia</a></li>
+	         <li><a>Telegram: Barista Cambodia</a></li>
+	       </ul>
+	    </div> 
+	    <br>
+	    <div class="google-map">
+	      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.489597465257!2d104.92822081471158!3d11.588401746849598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310953fd9f9a51e9%3A0xc26eafcd2ed5ca29!2zTm9ydG9uIFVuaXZlcnNpdHkg4Z6f4Z6A4Z6b4Z6c4Z634Z6R4Z-S4Z6Z4Z624Z6b4Z-Q4Z6Z4Z6T4Z-Q4Z6a4Z6P4Z674Z6T!5e0!3m2!1sen!2skh!4v1561101392316!5m2!1sen!2skh" width="420" height="330" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+	    </div>
+		</div>
+	<!-- Footer -->
+		<div class="footer-main-div">
+			<div class="footer-social-icon">
+				<ul>
+					<li><a href="https://www.messenger.com/t/2237968286273336" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				</ul>
+			</div>
+			<div class="footer-bottom">
+				<p>COPYRIGHT©2019 Barista's House.All Right Reserved.| WorkTeamNU </p>
+			</div>
+		</div>
+</body>
+</html>

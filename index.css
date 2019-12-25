@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+
+body{
+	background-color: #32281f;
+	height: auto;
+	margin: auto;
+}
+/*Header*/
+.header-main-div{
+	margin: auto;
+	position: absolute;
+	margin-left: auto;
+	margin-top: auto;
+	margin-top: 50px;
+}
+.top{
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Merienda', cursive;
+	margin-bottom: 40px;
+	margin-top: -20px;
+	color: #AECD81;	
+	position: relative;
+	z-index: 1;
+}
+.navigation{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Pattaya', sans-serif;
+	color: #452E1C;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 1;
+}
+nav p {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+}
+/*Content*/
+.content {
+	min-height: 100vh;
+	padding-bottom: -10px;
+	font-family: 'Mali', cursive;
+	margin: auto;
+	height: auto;
+	width: 100%;
+}
+
+img{
+	width: 100%;
+	z-index: -1;
+	animation: imageAnimation 8s infinite;
+}
+
+@keyframes imageAnimation { 
+	0% {
+	    opacity: 1;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	25% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	100% { opacity: 1 }
+}
+
+/*Card*/
+.menu h1{
+	text-align: center;
+	background-color: #6F4E37;
+	padding: 20px;
+	font-size: 25px;
+	font-family: 'Pattaya', sans-serif;
+	color: #fff;
+	font-size: 40px;
+	margin: 0px;
+	position: relative;
+	z-index: 1px;
+	border-radius: 50px;
+}
+.div-card{
+	position: static;
+	margin-left: 15%;
+}
+.div-card .card{
+	width: 18rem;
+}
+.card-body{
+	color: #fff;
+}
+
+/*footer*/
+.footer-main-div{
+	background: #6F4E37;
+	border-top-left-radius: 80%;
+	border-top-right-radius: 80%;
+	padding-top: 30px;
+	position: relative;
+	z-index: 1px;
+}
+
+.footer-social-icon ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-social-icon ul li{
+	display: inline-block;
+	width: 50px;
+	margin: 0px 0px;
+}
+
+.footer-social-icon ul li a i:hover{
+	color: #AECD81;
+	transition: 0.5s;
+	opacity: 2.0;
+}
+
+.footer-social-icon ul li a i{
+	line-height: 50px;
+	color: #fff;
+	font-size: 50px;
+}
+/*Copyright*/
+.footer-bottom{
+	width: 98%;
+	height: auto;
+	bottom: 5px;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+.footer-bottom p {
+	font-size: 15px;
+	font-family: 'Pattaya', sans-serif;
+	color: #fff;
+}
+
+.congtainer{
+    width: 80%;
+    margin:auto;
+}
+
+/*About us*/
+.wrapper{
+  margin-top: 40px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.card-collection{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.card-collection .about-card{
+  background: #6F4E37;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #fff;  
+  position: relative;
+  border-radius: 10%;
+  padding: 30px;
+}
+
+.card-collection .about-card h3{
+  color: #fff;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.card-collection .team_member p.role{
+  color: #000;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.card-collection .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.card-collection .about-card .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
